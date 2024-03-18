@@ -1,0 +1,45 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  background-color: rgb(180, 176, 176, 0.2);
+  height: 99vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.up {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 20px 0 20px;
+  gap: 20px;
+}
+.star {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+.btn {
+  background-color: blue;
+  color: #fff;
+  border-radius: 10px;
+  padding: 7px;
+  font-size: 15px;
+}
+button:hover {
+  cursor: pointer;
+}
+.down {
+  margin-bottom: 50px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.lien {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 10px;
+}

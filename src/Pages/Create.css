@@ -1,0 +1,52 @@
+.headCreate {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.ContainerCreate {
+  margin-left: 80px;
+  margin-top: 5px;
+}
+.lien {
+  display: flex;
+  align-items: center;
+}
+.MainCreate {
+  display: flex;
+}
+.leftCreate {
+  background-color: #f3f4f6;
+  border: 3px solid #d1d5db;
+  border-radius: 20px;
+
+  width: 50%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rightCreate {
+  width: 50%;
+  margin: 0 80px;
+  transition: 0.2s;
+}
+
+.bar {
+  display: flex;
+  justify-content: space-between;
+}
+.btns {
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 18px;
+  height: 100%;
+}
+.btns button {
+  height: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #c4c5c7;
+  transition: 0.2s;
+}

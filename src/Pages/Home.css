@@ -1,0 +1,36 @@
+.HomeContainer {
+  margin-left: 230px;
+  margin-right: 80px;
+}
+.head {
+  padding: 20px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 5px;
+  border-bottom: 1px solid gray;
+}
+.info{
+    padding: 5px 20px;
+    margin-right: 5px;
+}
+.noteIcone {
+  position: relative;
+}
+.notif {
+  background-color: red;
+  position: absolute;
+  top: -5%;
+  right: -5%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.buttons button{
+    background-color: transparent;
+    border: 1px solid black;
+    color: gray;
+    border-radius: 32px;
+    margin: 10px 10px 30px 0;
+    padding: 5px 15px;
+}

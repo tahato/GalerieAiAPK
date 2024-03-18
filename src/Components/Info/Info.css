@@ -1,0 +1,21 @@
+.info_Create {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  gap: 20px;
+}
+.info_Create h2 {
+  margin-top: 7px;
+  color: orange;
+}
+.contain {
+  text-align: center;
+  border-bottom: 1px solid gray;
+  padding-bottom: 30px;
+}
+.icones {
+  display: flex;
+  gap: 20px;
+}
